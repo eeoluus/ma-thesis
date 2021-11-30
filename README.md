@@ -1,14 +1,14 @@
 # ma-thesis
 
-The R script for replicating the statistics will be added in the near future.
+**The R script for replicating the statistics will be added in the near future.**
 
-Instructions for replicating the analysis. Behavioral data is read from Presentation log files (Neurobehavioral Systems), whereas the MEG data is assumed to be from the Elekta Neuromag TRIUX system (which uses the .fif extension).
+Instructions for replicating the analysis. Behavioral data is read from Presentation log files (Neurobehavioral Systems), whereas the MEG data is assumed to be from an Elekta Neuromag TRIUX system (which uses the .fif extension). Please note that you have to **set up the input and output directories** for each step and change the scripts accordingly.
 
-Split preprocessed MEG data files with splitter.py
-Calculate grand averages from split files using grand_averages.py
-Plot grand averages with ga_plots.py
-Calculate condition differences from split files using condition_differences.py
-Plot t-heatmaps from condition differences using permutation_hmaps.py
 
-Form data points on the basis of reaction times and condition differences with data_points.py
-Plot reaction times and percentage of correct responses using hitrate_rt_plots.py
+1. Split preprocessed MEG data files with splitter.py  
+2. Calculate grand averages from split files using grand_averages.py  
+3. Plot grand averages with ga_plots.py  
+4. Calculate condition differences from split files using condition_differences.py  
+5. Plot t-heatmaps from condition differences using permutation_hmaps.py  
+6. Form data points on the basis of reaction times and condition differences with data_points.py  
+7. Plot reaction times and percentage of correct responses using hitrate_rt_plots.py
