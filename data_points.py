@@ -31,8 +31,6 @@ def logs_to_rts(log_dir):
                         response_lines.append(data_lines[i])
             response_lines_proper = response_lines[4:len(response_lines)]
 
-            # Pitää jotenkin varmistaa, että trialien määrä todellakin on 192, tai sitten implementoida jotenkin muuten
-
             response_blocks = [response_lines_proper[i:i + 48] for i in range(0, len(response_lines_proper), 48)]
             for b, block in enumerate(response_blocks):
                 rt_hits_str = [line.split('\t')[-2] for line in block if line]
@@ -60,8 +58,6 @@ def logs_to_hitrate(log_dir):
                 if 'test' in data_lines[i] and data_lines[i][0:7] != 'Picture':
                     test_lines.append(data_lines[i])
             test_lines_proper = test_lines[4:len(test_lines)]
-
-            # Pitää jotenkin varmistaa, että trialien määrä todellakin on 192, tai sitten implementoida jotenkin muuten
 
             test_blocks = [test_lines_proper[i:i + 48] for i in range(0, len(test_lines_proper), 48)]
             for b in range(0, len(test_blocks)):
