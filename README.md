@@ -10,3 +10,4 @@ Instructions for replicating the analysis. Behavioral data is read from Presenta
 5. Plot t-heatmaps from condition differences using permutation_hmaps.py  
 6. Form data points on the basis of reaction times and condition differences with data_points.py  
 7. Plot reaction times and percentage of correct responses using hitrate_rt_plots.py
+8. Perform statistical analysis and plot the model and the data with statistics.r
