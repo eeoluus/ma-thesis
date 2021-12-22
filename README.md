@@ -1,7 +1,5 @@
 # ma-thesis
 
-**The R script for replicating the statistics will be added in the near future.**
-
 Instructions for replicating the analysis. Behavioral data is read from Presentation log files (Neurobehavioral Systems), whereas the MEG data is assumed to be from an Elekta Neuromag TRIUX system (which uses the .fif extension). Please note that you have to **set up the input and output directories** for each step and change the scripts accordingly.
 
 
