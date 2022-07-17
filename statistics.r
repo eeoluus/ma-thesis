@@ -11,7 +11,7 @@ path <- paste(
     data, 
     sep=''
     )
-data_points<- read.table(
+data_points <- read.table(
     path, 
     header=TRUE,
     sep=','
