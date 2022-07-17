@@ -11,3 +11,4 @@ Instructions for replicating the analysis. Behavioral data is read from Presenta
 6. Form data points on the basis of reaction times and condition differences with data_points.py  
 7. Plot reaction times and percentage of correct responses using hitrate_rt_plots.py
 8. Perform statistical analysis and plot the model and the data with statistics.r
+9. Perform statistical analysis on reaction times by regressing on block number with statistics_behav.r
